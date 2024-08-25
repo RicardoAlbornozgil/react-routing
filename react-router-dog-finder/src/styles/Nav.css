@@ -1,0 +1,25 @@
+/* Nav.css */
+nav {
+    background-color: #333;
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: rgba(2, 255, 133, 0.272);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  nav a.active {
+    color: rgba(2, 255, 133, 0.929);
+  }
+  
+  nav a:hover {
+    color: rgba(2, 255, 133, 0.929);
+  }
+  

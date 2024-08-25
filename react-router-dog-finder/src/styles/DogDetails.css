@@ -1,0 +1,32 @@
+/* DogDetails.css */
+.dog-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .dog-details img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .dog-details h1 {
+    margin: 0;
+    color: white;
+  }
+  
+  .dog-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dog-details li {
+    background-color:  rgba(2, 255, 133, 0.929);
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    color: black;
+  }
+  
