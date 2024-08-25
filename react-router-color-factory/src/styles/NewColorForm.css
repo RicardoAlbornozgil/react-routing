@@ -1,0 +1,34 @@
+/* src/styles/NewColorForm.css */
+.new-color-form {
+    text-align: center;
+    height: 95vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .new-color-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .new-color-form input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .new-color-form button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .new-color-form button:hover {
+    background-color: #2980b9;
+  }
+  

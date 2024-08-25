@@ -1,0 +1,58 @@
+/* src/styles/ColorList.css */
+.color-list {
+  height: 100vh;
+  width: 100%; /* Width could be 100% or any specific width */
+}
+
+.color-list ul {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  height: 100%;
+}
+
+.color-list li {
+  position: absolute; /* Absolutely position each list item */
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.new-color-button {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.new-color-button:hover {
+  background-color: #2980b9;
+}
+
+.color-link {
+  text-decoration: none;
+  color: #333;
+}
+
+  
+
+.color-list ul li:hover {
+  scale: 1.5;
+}
+
+
+
+.banner {
+  padding: 5%;
+  color: aliceblue;
+  background-color: black;
+  
+  } 
+  
